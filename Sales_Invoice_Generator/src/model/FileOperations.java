@@ -28,8 +28,8 @@ public class FileOperations {
         InvoiceLine invoiceLine6 = new InvoiceLine("short", 2, 60, 1);
 
         //Creating objects of invoice headers and giving data to constructor
-        InvoiceHeader invoiceHeader1 = new InvoiceHeader(1, dpe.parseDate("(20/12/2022)"), "Ahmed", invoiceLines);
-        InvoiceHeader invoiceHeader2 = new InvoiceHeader(2, dpe.parseDate("(20/12/2022)"), "Mahmoud", invoiceLines);
+        InvoiceHeader invoiceHeader1 = new InvoiceHeader(1, dpe.parseDate("(24/12/2022)"), "Ahmed", invoiceLines);
+        InvoiceHeader invoiceHeader2 = new InvoiceHeader(2, dpe.parseDate("(24/12/2022)"), "Mahmoud", invoiceLines);
 
         //Add invoice header objects to the ArrayList
         invoiceHeaders.add(invoiceHeader1);
